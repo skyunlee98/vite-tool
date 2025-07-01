@@ -47,6 +47,6 @@ const user = {
 }as const;
 
 // 오류: 'role'은 string으로 간주됨
-if (user.role === "gest") {
-  console.log("관리자입니다.");
-}
+// if (user.role === "gest") {
+//   console.log("관리자입니다.");
+// }
